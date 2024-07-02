@@ -48,8 +48,6 @@ void I18n::SetLanguage(Language language) {
       dict_ = &chinese;
       break;
     case Language::MAX:
-    default:
-      assert(false);
   }
 }
 
